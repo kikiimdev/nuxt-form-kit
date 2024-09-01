@@ -1,0 +1,27 @@
+{
+  "name": "my-nuxt-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground --port=3002",
+    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "eslint": "^9.9.0",
+    "nuxt": "^3.13.0",
+    "typescript": "^5.5.4",
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@formkit/addons": "^1.6.5",
+    "@formkit/icons": "^1.6.5",
+    "@formkit/nuxt": "^1.6.5"
+  }
+}
